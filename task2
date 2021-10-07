@@ -1,0 +1,10 @@
+n=int(input("enter the range"))
+l=[]
+for i in range(n):
+    l.append(int(input("enter the value")))
+print(l)
+l1=[]
+for i in l:
+    if(i>0 or i==0 ):
+        l1.append(i)
+print(l1) 
