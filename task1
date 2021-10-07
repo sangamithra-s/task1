@@ -1,0 +1,8 @@
+l=[0,1]
+sum=0
+for i in range(10):
+    n=len(l)
+    sum=l[n-2]+l[n-1]
+    l.append(sum)
+for i in range(n):
+    print(l[i])
